@@ -1,0 +1,12 @@
+Source: ros-galactic-kobuki-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python3-matplotlib <!nocheck>, ros-galactic-ament-cmake-cppcheck <!nocheck>, ros-galactic-ament-cmake-cpplint <!nocheck>, ros-galactic-ament-cmake-flake8 <!nocheck>, ros-galactic-ament-cmake-lint-cmake <!nocheck>, ros-galactic-ament-cmake-pep257 <!nocheck>, ros-galactic-ament-cmake-ros, ros-galactic-ament-cmake-uncrustify <!nocheck>, ros-galactic-ament-cmake-xmllint <!nocheck>, ros-galactic-ament-lint-auto <!nocheck>, ros-galactic-ecl-build, ros-galactic-geometry-msgs, ros-galactic-launch-testing <!nocheck>, ros-galactic-launch-testing-ament-cmake <!nocheck>, ros-galactic-launch-testing-ros <!nocheck>, ros-galactic-nav-msgs, ros-galactic-rcl-interfaces, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-ros2test <!nocheck>, ros-galactic-ros-workspace
+Homepage: https://index.ros.org/p/kobuki_velocity_smoother/github-kobuki-base-velocity_smoother/
+Standards-Version: 3.9.2
+
+Package: ros-galactic-kobuki-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-rcl-interfaces, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-ros-workspace
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
