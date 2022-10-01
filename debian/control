@@ -1,0 +1,12 @@
+Source: ros-foxy-kobuki-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python3-matplotlib <!nocheck>, ros-foxy-ament-cmake-cppcheck <!nocheck>, ros-foxy-ament-cmake-cpplint <!nocheck>, ros-foxy-ament-cmake-flake8 <!nocheck>, ros-foxy-ament-cmake-lint-cmake <!nocheck>, ros-foxy-ament-cmake-pep257 <!nocheck>, ros-foxy-ament-cmake-ros, ros-foxy-ament-cmake-uncrustify <!nocheck>, ros-foxy-ament-cmake-xmllint <!nocheck>, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ecl-build, ros-foxy-geometry-msgs, ros-foxy-launch-testing <!nocheck>, ros-foxy-launch-testing-ament-cmake <!nocheck>, ros-foxy-launch-testing-ros <!nocheck>, ros-foxy-nav-msgs, ros-foxy-rcl-interfaces, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-ros2test <!nocheck>, ros-foxy-ros-workspace
+Homepage: https://index.ros.org/p/kobuki_velocity_smoother/github-kobuki-base-velocity_smoother/
+Standards-Version: 3.9.2
+
+Package: ros-foxy-kobuki-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-geometry-msgs, ros-foxy-nav-msgs, ros-foxy-rcl-interfaces, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-ros-workspace
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
