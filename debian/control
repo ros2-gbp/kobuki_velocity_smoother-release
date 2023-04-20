@@ -1,0 +1,12 @@
+Source: ros-iron-kobuki-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python3-matplotlib <!nocheck>, ros-iron-ament-cmake-cppcheck <!nocheck>, ros-iron-ament-cmake-cpplint <!nocheck>, ros-iron-ament-cmake-flake8 <!nocheck>, ros-iron-ament-cmake-lint-cmake <!nocheck>, ros-iron-ament-cmake-pep257 <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-cmake-uncrustify <!nocheck>, ros-iron-ament-cmake-xmllint <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ecl-build, ros-iron-geometry-msgs, ros-iron-launch-testing <!nocheck>, ros-iron-launch-testing-ament-cmake <!nocheck>, ros-iron-launch-testing-ros <!nocheck>, ros-iron-nav-msgs, ros-iron-rcl-interfaces, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-ros2test <!nocheck>, ros-iron-ros-workspace
+Homepage: https://index.ros.org/p/kobuki_velocity_smoother/github-kobuki-base-velocity_smoother/
+Standards-Version: 3.9.2
+
+Package: ros-iron-kobuki-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rcl-interfaces, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-ros-workspace
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
