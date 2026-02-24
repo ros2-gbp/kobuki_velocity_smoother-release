@@ -1,3 +1,26 @@
+## kobuki_velocity_smoother (rolling) - 0.15.1-1
+
+The packages in the `kobuki_velocity_smoother` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling kobuki_velocity_smoother` on `Tue, 24 Feb 2026 19:29:55 -0000`
+
+The `kobuki_velocity_smoother` package was released.
+
+Version of package(s) in repository `kobuki_velocity_smoother`:
+
+- upstream repository: https://github.com/kobuki-base/kobuki_velocity_smoother.git
+- release repository: https://github.com/ros2-gbp/kobuki_velocity_smoother-release.git
+- rosdistro version: `0.15.0-3`
+- old version: `0.15.0-3`
+- new version: `0.15.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## kobuki_velocity_smoother (foxy) - 0.15.0-1
 
 The packages in the `kobuki_velocity_smoother` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy kobuki_velocity_smoother` on `Sat, 01 Oct 2022 12:41:41 -0000`
