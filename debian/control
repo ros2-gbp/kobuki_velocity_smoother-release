@@ -1,0 +1,12 @@
+Source: ros-lyrical-kobuki-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python3-matplotlib <!nocheck>, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-flake8 <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-pep257 <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ecl-build, ros-lyrical-geometry-msgs, ros-lyrical-launch-testing <!nocheck>, ros-lyrical-launch-testing-ament-cmake <!nocheck>, ros-lyrical-launch-testing-ros <!nocheck>, ros-lyrical-nav-msgs, ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-ros2test <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/kobuki_velocity_smoother/github-kobuki-base-velocity_smoother/
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-kobuki-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-ros-workspace
+Description: Bound incoming velocity messages according to robot velocity and acceleration limits.
